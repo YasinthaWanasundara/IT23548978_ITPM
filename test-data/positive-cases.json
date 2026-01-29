@@ -1,0 +1,242 @@
+[
+  {
+    "id": "Pos_Fun_0001",
+    "name": "Simple sentence - need water",
+    "lengthType": "S",
+    "input": "mata vathura oonee",
+    "expected": "මට වතුර ඕනේ",
+    "category": "Daily language usage",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0002",
+    "name": "Simple sentence - went to temple",
+    "lengthType": "S",
+    "input": "mama pansal giyaa",
+    "expected": "මම පන්සල් ගියා",
+    "category": "Daily language usage",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0003",
+    "name": "Compound sentence - need water but not cold water",
+    "lengthType": "M",
+    "input": "mata vathura oonee ee vunaata siithala vathura epaa",
+    "expected": "මට වතුර ඕනේ ඒ වුනාට සීතල වතුර එපා",
+    "category": "Word combination / phrase pattern",
+    "grammar": "Compound sentence",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0004",
+    "name": "Complex sentence - because it rained",
+    "lengthType": "M",
+    "input": "eyaa parakku vunee eliye vessa nisaa",
+    "expected": "එයා පාරක්කු වුනේ එලියේ වැස්ස නිසා",
+    "category": "Daily language usage",
+    "grammar": "Complex sentence",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0005",
+    "name": "Question - how is your mother",
+    "lengthType": "S",
+    "input": "dhaen aeyagee ammaata kohomadha?",
+    "expected": "දැන් එයාගේ අම්මාට කොහොමද?",
+    "category": "Greeting / request / response",
+    "grammar": "Interrogative (question)",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0006",
+    "name": "Command - don't go there",
+    "lengthType": "S",
+    "input": "eheta yanna epaa",
+    "expected": "එහෙට යන්න එපා",
+    "category": "Daily language usage",
+    "grammar": "Imperative (command)",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0007",
+    "name": "Positive form - can do it",
+    "lengthType": "S",
+    "input": "oyaata eeka karanna puLuvan",
+    "expected": "ඔයාට ඒක කරන්න පුළුවන්",
+    "category": "Daily language usage",
+    "grammar": "Positive form",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0008",
+    "name": "Negative form - cannot do it",
+    "lengthType": "S",
+    "input": "oyaata eeka karanna baehae",
+    "expected": "ඔයාට ඒක කරන්න බැහැ",
+    "category": "Daily language usage",
+    "grammar": "Negation (negative form)",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0009",
+    "name": "Greeting - good morning",
+    "lengthType": "S",
+    "input": "suBa pathanavaa!",
+    "expected": "සුභ පාතානවා!",
+    "category": "Greeting / request / response",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0010",
+    "name": "Request - can I have your pen",
+    "lengthType": "S",
+    "input": "mata oyaagee paeena dhenavadha?",
+    "expected": "මට ඔයාගේ පේන දෙනවද?",
+    "category": "Greeting / request / response",
+    "grammar": "Interrogative (question)",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0011",
+    "name": "Response - yes, I will give",
+    "lengthType": "S",
+    "input": "hari, mama dhennam",
+    "expected": "හරි, මම දෙන්නම්",
+    "category": "Greeting / request / response",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0012",
+    "name": "Polite phrase - can you please help me",
+    "lengthType": "M",
+    "input": "obata puLuvannam karuNaakaralaa mata udhavvak karanna",
+    "expected": "ඔබට පුළුවන්නම් කරුණාකරලා මට උදව්වක් කරන්න",
+    "category": "Greeting / request / response",
+    "grammar": "Polite form",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0013",
+    "name": "Informal phrase - come here",
+    "lengthType": "S",
+    "input": "meheta varen",
+    "expected": "මෙහෙට වරෙන්",
+    "category": "Slang / informal language",
+    "grammar": "Imperative (command)",
+    "qualityFocus": "Robustness validation"
+  },
+  {
+    "id": "Pos_Fun_0014",
+    "name": "Day-to-day expression - I'm sleepy",
+    "lengthType": "S",
+    "input": "mata nidhaagannavaa",
+    "expected": "මට නිදාගන්නවා",
+    "category": "Daily language usage",
+    "grammar": "Present tense",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0015",
+    "name": "Multi-word expression - stay like that",
+    "lengthType": "S",
+    "input": "ohoma inna",
+    "expected": "ඔහොම ඉන්න",
+    "category": "Word combination / phrase pattern",
+    "grammar": "Imperative (command)",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0016",
+    "name": "Proper spacing - I bring vegetables",
+    "lengthType": "S",
+    "input": "mama palathuru genaavaa",
+    "expected": "මම පලතුරු ගෙනාවා",
+    "category": "Daily language usage",
+    "grammar": "Present tense",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0017",
+    "name": "Joined words stress test",
+    "lengthType": "S",
+    "input": "mamapalathurugenaavaa",
+    "expected": "මමපලතුරුගෙනාවා",
+    "category": "Formatting (spaces / line breaks / paragraph)",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation"
+  },
+  {
+    "id": "Pos_Fun_0018",
+    "name": "Repeated words for emphasis - no no",
+    "lengthType": "S",
+    "input": "naehae naehae",
+    "expected": "නැහැ නැහැ",
+    "category": "Word combination / phrase pattern",
+    "grammar": "Negation (negative form)",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0019",
+    "name": "Past tense - I went to Nuwara",
+    "lengthType": "S",
+    "input": "giya sathiye mama nuvara giyaa",
+    "expected": "ගිය සතියේ මම නුවර ගියා",
+    "category": "Daily language usage",
+    "grammar": "Past tense",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0020",
+    "name": "Present tense - I study now",
+    "lengthType": "S",
+    "input": "mama dhaen paadam karanavaa",
+    "expected": "මම දැන් පාඩම් කරනවා",
+    "category": "Daily language usage",
+    "grammar": "Present tense",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0021",
+    "name": "Future tense - I will go home tomorrow",
+    "lengthType": "S",
+    "input": "mama anidhdhata gedhara yanavaa",
+    "expected": "මම අනිද්දට ගෙදර යනවා",
+    "category": "Daily language usage",
+    "grammar": "Future tense",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0022",
+    "name": "Singular pronoun - I need to get on vehicle",
+    "lengthType": "S",
+    "input": "mama vaahanayata naginna hadhannee",
+    "expected": "මම වාහනයට නගින්න හදන්නේ",
+    "category": "Daily language usage",
+    "grammar": "Pronoun variation (I/you/we/they)",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0023",
+    "name": "Plural pronoun - we eat",
+    "lengthType": "S",
+    "input": "api kaeema kamu",
+    "expected": "අපි කැම් කමු",
+    "category": "Daily language usage",
+    "grammar": "Plural form",
+    "qualityFocus": "Accuracy validation"
+  },
+  {
+    "id": "Pos_Fun_0024",
+    "name": "Mixed English + Singlish with technical terms",
+    "lengthType": "M",
+    "input": "mama photos tika oyaata WhatsApp karannam",
+    "expected": "මම photos ටික ඔයාට WhatsApp කරන්නම්",
+    "category": "Mixed Singlish + English",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation"
+  }
+]

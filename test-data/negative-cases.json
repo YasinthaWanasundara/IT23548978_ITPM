@@ -1,0 +1,112 @@
+[
+  {
+    "id": "Neg_Fun_0001",
+    "name": "Chat abbreviation - IDK",
+    "lengthType": "S",
+    "input": "mata IDK",
+    "expected": "මට IDK",
+    "category": "Names / places / common English words",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation",
+    "expectedBehavior": "Should keep IDK unchanged"
+  },
+  {
+    "id": "Neg_Fun_0002",
+    "name": "Internet slang - LOL",
+    "lengthType": "S",
+    "input": "eeka LOL",
+    "expected": "ඒක LOL",
+    "category": "Slang / informal language",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation",
+    "expectedBehavior": "Should keep LOL unchanged"
+  },
+  {
+    "id": "Neg_Fun_0003",
+    "name": "Excessive punctuation",
+    "lengthType": "S",
+    "input": "mama!!! gedhara??? yanavaa...",
+    "expected": "මම!!! ගෙදර??? යනවා...",
+    "category": "Punctuation / numbers",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation",
+    "expectedBehavior": "Should handle multiple punctuation"
+  },
+  {
+    "id": "Neg_Fun_0004",
+    "name": "Mixed case typing",
+    "lengthType": "S",
+    "input": "MaMa GeDhArA YaNaVaA",
+    "expected": "මම ගෙදර යනවා",
+    "category": "Typographical error handling",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation",
+    "expectedBehavior": "Should handle mixed case"
+  },
+  {
+    "id": "Neg_Fun_0005",
+    "name": "Extra spaces between words",
+    "lengthType": "S",
+    "input": "mama  gedhara   yanavaa",
+    "expected": "මම ගෙදර යනවා",
+    "category": "Formatting (spaces / line breaks / paragraph)",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation",
+    "expectedBehavior": "Should handle multiple spaces"
+  },
+  {
+    "id": "Neg_Fun_0006",
+    "name": "Numbers mixed with text",
+    "lengthType": "S",
+    "input": "mama 2 gedhara yanavaa",
+    "expected": "මම 2 ගෙදර යනවා",
+    "category": "Punctuation / numbers",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation",
+    "expectedBehavior": "Should keep numbers unchanged"
+  },
+  {
+    "id": "Neg_Fun_0007",
+    "name": "Special characters in middle",
+    "lengthType": "S",
+    "input": "mama@gedhara#yanavaa",
+    "expected": "මම@ගෙදර#යනවා",
+    "category": "Punctuation / numbers",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation",
+    "expectedBehavior": "Should handle special chars"
+  },
+  {
+    "id": "Neg_Fun_0008",
+    "name": "Empty input",
+    "lengthType": "S",
+    "input": "",
+    "expected": "",
+    "category": "Empty/cleared input handling",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Error handling / input validation",
+    "expectedBehavior": "Should handle empty input"
+  },
+  {
+    "id": "Neg_Fun_0009",
+    "name": "Only spaces input",
+    "lengthType": "S",
+    "input": "     ",
+    "expected": "",
+    "category": "Formatting (spaces / line breaks / paragraph)",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation",
+    "expectedBehavior": "Should handle only spaces"
+  },
+  {
+    "id": "Neg_Fun_0010",
+    "name": "Very long single word",
+    "lengthType": "M",
+    "input": "mamagedharayanavaaapiyamuoyaalaenavadhaeyaalageninna",
+    "expected": "මමගෙදරයනවාඅපියමුඔයාලාඑනවදඑයාලගෙනින්න",
+    "category": "Formatting (spaces / line breaks / paragraph)",
+    "grammar": "Simple sentence",
+    "qualityFocus": "Robustness validation",
+    "expectedBehavior": "Should handle very long joined words"
+  }
+]

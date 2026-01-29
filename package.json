@@ -1,0 +1,26 @@
+{
+  "name": "itpm-assignment1-singlish-tests",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for Singlish to Sinhala transliteration",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:positive": "playwright test tests/positive.spec.js",
+    "test:negative": "playwright test tests/negative.spec.js",
+    "test:ui": "playwright test tests/ui-behavior.spec.js",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:safari": "playwright test --project=webkit",
+    "report": "playwright show-report",
+    "install-browsers": "playwright install"
+  },
+  "keywords": ["playwright", "testing", "singlish", "sinhala", "itpm"],
+  "author": "Wanasundara W.M.Y.P (IT23548978)",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.0.10"
+  }
+}

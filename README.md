@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ITPM Assignment 1 - Singlish to Sinhala Transliteration Testing
 
 ## 📋 Project Information
@@ -29,3 +30,7 @@ npm install
 
 # Install Playwright browsers
 npm run install-browsers
+=======
+# IT23548978_ITPM
+Assignment 1
+>>>>>>> 77b63ba3dbea24f3672405071e0be5d5fe12e06a

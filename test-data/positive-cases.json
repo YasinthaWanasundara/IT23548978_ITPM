@@ -94,7 +94,7 @@
     "name": "Request - can I have your pen",
     "lengthType": "S",
     "input": "mata oyaagee paeena dhenavadha?",
-    "expected": "මට ඔයාගේ පේන දෙනවද?",
+    "expected": "මට ඔයාගේ පෑන දෙනවද?",
     "category": "Greeting / request / response",
     "grammar": "Interrogative (question)",
     "qualityFocus": "Accuracy validation"
@@ -133,7 +133,7 @@
     "id": "Pos_Fun_0014",
     "name": "Day-to-day expression - I'm sleepy",
     "lengthType": "S",
-    "input": "mata nidhaagannavaa",
+    "input": "mama nidhaagannavaa",
     "expected": "මට නිදාගන්නවා",
     "category": "Daily language usage",
     "grammar": "Present tense",

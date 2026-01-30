@@ -94,7 +94,7 @@
     "name": "Request - can I have your pen",
     "lengthType": "S",
     "input": "mata oyaagee paeena dhenavadha?",
-    "expected": "මට ඔයාගේ පේන දෙනවද?",
+    "expected": "මට ඔයාගේ පෑන දෙනවද?",
     "category": "Greeting / request / response",
     "grammar": "Interrogative (question)",
     "qualityFocus": "Accuracy validation"
